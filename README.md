@@ -5,7 +5,7 @@ A Swift command line tool for generating a license for an open source project, r
 ## Installation
 
 ### Prerequisites
-- Swift
+- [Swift](https://www.swift.org/download/)
 
 ### Installation Steps
 1. Clone the repository:
@@ -38,7 +38,7 @@ After moving the binary file to a directory that is included in your system path
 
 You may need to restart your terminal or log out and log back in for the changes to take effect.
 
-
+### Install using a single command
 To install Swiflicense, compile the tool, and include it in the system path in a single command, run the following:
 
 ```
@@ -53,7 +53,7 @@ On macOS, this will clone the repository, navigate to the repository directory, 
 On Linux, the command will be similar, but the binary file will be moved to the /usr/bin directory instead.
 
 
-### Usage
+## Usage
 
 ```
 swiflicense -n NAME -y YEAR -t TYPE
