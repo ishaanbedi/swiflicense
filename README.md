@@ -1,6 +1,6 @@
 # Swiflicense
 
-A Swift command line tool for generating a license for an open source project, right from your terminal.
+A Swift command line tool for generating a license for a software, right from your cli.
 
 ## Installation
 
