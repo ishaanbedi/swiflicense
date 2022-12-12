@@ -23,7 +23,6 @@ cd swiflicense
 3. Compile and install the tool:
 ```
 swift build -c release
-swift install
 ```
 4. Move the binary file to a directory included in the system path:
 ```
@@ -44,10 +43,13 @@ To install Swiflicense, compile the tool, and include it in the system path in a
 ```
 git clone https://github.com/ishaanbedi/swiflicense.git && 
 
-cd swiflicense && swift build -c release && 
-
-swift install && mv .build/release/swiflicense /usr/local/bin/swiflicense
+cd swiflicense && swift build -c release
+&& sudo mv .build/release/swiflicense /usr/local/bin/swiflicense
 ```
+To fix the `permission denied` error when executing the mv command, I've combined it with `sudo` command to give the installation process superuser privileges. 
+
+If prompted for a password at this step, please enter the password for your user account on the machine.
+
 On macOS, this will clone the repository, navigate to the repository directory, compile and install the tool, and move the binary file to the /usr/local/bin directory, which is included in the default system path.
 
 On Linux, the command will be similar, but the binary file will be moved to the /usr/bin directory instead.
