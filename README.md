@@ -88,8 +88,9 @@ swiflicense -n "Ishaan Bedi" -y 2020 -t mit
 ### Demo
 Check out this short demo of Swiflicense in action:
 
-<img src="https://kcldtzblfykiwwltfouv.supabase.co/storage/v1/object/public/github-gif/swiflicense_demo.gif"/>
 
+
+![swiflicense_demo](https://user-images.githubusercontent.com/39641326/207069994-9898e285-1b06-4156-bb88-b2e2b31ea396.gif)
 
 
 This will generate a license file named LICENSE in the current directory.
