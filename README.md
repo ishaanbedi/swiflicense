@@ -41,10 +41,8 @@ You may need to restart your terminal or log out and log back in for the changes
 To install Swiflicense, compile the tool, and include it in the system path in a single command, run the following:
 
 ```
-git clone https://github.com/ishaanbedi/swiflicense.git && 
-
-cd swiflicense && swift build -c release
-&& sudo mv .build/release/swiflicense /usr/local/bin/swiflicense
+git clone https://github.com/ishaanbedi/swiflicense.git && cd swiflicense && swift build -c release;
+sudo mv .build/release/swiflicense /usr/local/bin/swiflicense
 ```
 To fix the `permission denied` error when executing the mv command, I've combined it with `sudo` command to give the installation process superuser privileges. 
 
